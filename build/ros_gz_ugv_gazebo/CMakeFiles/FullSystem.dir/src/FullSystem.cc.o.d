@@ -1,5 +1,5 @@
 CMakeFiles/FullSystem.dir/src/FullSystem.cc.o: \
- /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_gazebo/src/FullSystem.cc \
+ /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_gazebo/src/FullSystem.cc \
  /usr/include/stdc-predef.h /usr/include/c++/13/string \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -237,7 +237,7 @@ CMakeFiles/FullSystem.dir/src/FullSystem.cc.o: \
  /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/detail/PluginPtr.hh \
  /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/utility.hh \
  /opt/ros/jazzy/opt/gz_plugin_vendor/include/gz/plugin2/gz/plugin/detail/utility.hh \
- /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_gazebo/include/ros_gz_ugv_gazebo/FullSystem.hh \
+ /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_gazebo/include/ros_gz_ugv_gazebo/FullSystem.hh \
  /opt/ros/jazzy/opt/gz_sim_vendor/include/gz/sim8/gz/sim/EventManager.hh \
  /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/Event.hh \
  /opt/ros/jazzy/opt/gz_common_vendor/include/gz/common5/gz/common/config.hh \

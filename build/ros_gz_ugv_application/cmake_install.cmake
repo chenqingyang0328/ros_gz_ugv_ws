@@ -1,4 +1,4 @@
-# Install script for directory: /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_application
+# Install script for directory: /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_application
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -98,7 +98,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_gz_ugv_application" TYPE FILE FILES "/home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_application/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_gz_ugv_application" TYPE FILE FILES "/home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_application/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

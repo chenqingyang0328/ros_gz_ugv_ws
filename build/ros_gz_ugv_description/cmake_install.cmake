@@ -1,4 +1,4 @@
-# Install script for directory: /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_description
+# Install script for directory: /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_gz_ugv_description/models" TYPE DIRECTORY FILES "/home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_description/models/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_gz_ugv_description/models" TYPE DIRECTORY FILES "/home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_description/models/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -110,7 +110,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_gz_ugv_description" TYPE FILE FILES "/home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_gz_ugv_description" TYPE FILE FILES "/home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

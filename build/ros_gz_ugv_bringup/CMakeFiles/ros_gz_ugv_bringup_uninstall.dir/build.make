@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_bringup
+CMAKE_SOURCE_DIR = /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_bringup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_bringup
@@ -82,6 +82,6 @@ CMakeFiles/ros_gz_ugv_bringup_uninstall.dir/clean:
 .PHONY : CMakeFiles/ros_gz_ugv_bringup_uninstall.dir/clean
 
 CMakeFiles/ros_gz_ugv_bringup_uninstall.dir/depend:
-	cd /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_bringup /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_bringup /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_bringup /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_bringup /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_bringup/CMakeFiles/ros_gz_ugv_bringup_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_bringup /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_bringup /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_bringup /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_bringup /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_bringup/CMakeFiles/ros_gz_ugv_bringup_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ros_gz_ugv_bringup_uninstall.dir/depend
 

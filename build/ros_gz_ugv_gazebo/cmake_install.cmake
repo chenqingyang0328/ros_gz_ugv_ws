@@ -1,4 +1,4 @@
-# Install script for directory: /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_gazebo
+# Install script for directory: /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -97,7 +97,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_gz_ugv_gazebo/worlds" TYPE DIRECTORY FILES "/home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_gazebo/worlds/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_gz_ugv_gazebo/worlds" TYPE DIRECTORY FILES "/home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_gazebo/worlds/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -164,7 +164,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_gz_ugv_gazebo" TYPE FILE FILES "/home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_gz_ugv_gazebo" TYPE FILE FILES "/home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_gazebo/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

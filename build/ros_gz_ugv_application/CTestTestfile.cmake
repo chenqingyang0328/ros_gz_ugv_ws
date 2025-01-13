@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_application
+# Source directory: /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_application
 # Build directory: /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_application
 # 
 # This file includes the relevant testing commands required for 

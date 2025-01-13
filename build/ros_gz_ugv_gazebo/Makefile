@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_gazebo
+CMAKE_SOURCE_DIR = /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv_gazebo
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_gazebo
