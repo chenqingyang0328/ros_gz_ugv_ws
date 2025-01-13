@@ -15,7 +15,7 @@
 -- Found ros_gz_ugv_description: 0.0.0 (/home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_description/share/ros_gz_ugv_description/cmake)
 -- Found ros_gz_ugv_gazebo: 0.0.0 (/home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_gazebo/share/ros_gz_ugv_gazebo/cmake)
 -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
--- Configuring done (1.5s)
+-- Configuring done (2.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_bringup
 -- Install configuration: ""
