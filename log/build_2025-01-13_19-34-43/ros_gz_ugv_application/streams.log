@@ -1,0 +1,39 @@
+[0.008s] Invoking command in '/home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_application -DCMAKE_INSTALL_PREFIX=/home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application
+[0.146s] -- The C compiler identification is GNU 13.3.0
+[0.589s] -- The CXX compiler identification is GNU 13.3.0
+[0.896s] -- Detecting C compiler ABI info
+[1.015s] -- Detecting C compiler ABI info - done
+[1.020s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.022s] -- Detecting C compile features
+[1.022s] -- Detecting C compile features - done
+[1.058s] -- Detecting CXX compiler ABI info
+[1.186s] -- Detecting CXX compiler ABI info - done
+[1.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.191s] -- Detecting CXX compile features
+[1.191s] -- Detecting CXX compile features - done
+[1.201s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.284s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.413s] -- Configuring done (1.4s)
+[1.414s] -- Generating done (0.0s)
+[1.415s] -- Build files have been written to: /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_application
+[1.418s] Invoked command in '/home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/chen/ros_gz_ugv_ws/src/ros_gz_ugv/ros_gz_ugv_application -DCMAKE_INSTALL_PREFIX=/home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application
+[1.419s] Invoking command in '/home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_application -- -j28 -l28
+[1.436s] Invoked command in '/home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_application -- -j28 -l28
+[1.440s] Invoking command in '/home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_application
+[1.444s] -- Install configuration: ""
+[1.444s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ament_index/resource_index/package_run_dependencies/ros_gz_ugv_application
+[1.444s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ament_index/resource_index/parent_prefix_path/ros_gz_ugv_application
+[1.444s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ros_gz_ugv_application/environment/ament_prefix_path.sh
+[1.444s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ros_gz_ugv_application/environment/ament_prefix_path.dsv
+[1.444s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ros_gz_ugv_application/environment/path.sh
+[1.444s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ros_gz_ugv_application/environment/path.dsv
+[1.445s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ros_gz_ugv_application/local_setup.bash
+[1.445s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ros_gz_ugv_application/local_setup.sh
+[1.445s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ros_gz_ugv_application/local_setup.zsh
+[1.445s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ros_gz_ugv_application/local_setup.dsv
+[1.445s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ros_gz_ugv_application/package.dsv
+[1.445s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ament_index/resource_index/packages/ros_gz_ugv_application
+[1.445s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ros_gz_ugv_application/cmake/ros_gz_ugv_applicationConfig.cmake
+[1.445s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ros_gz_ugv_application/cmake/ros_gz_ugv_applicationConfig-version.cmake
+[1.445s] -- Installing: /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_application/share/ros_gz_ugv_application/package.xml
+[1.449s] Invoked command in '/home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/chen/ros_gz_ugv_ws/build/ros_gz_ugv_application
