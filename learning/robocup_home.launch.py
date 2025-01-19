@@ -1,21 +1,3 @@
-#!/usr/bin/env python3
-#
-# Copyright 2023 6-robot.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
-# Authors: Zhang Wanjie
-
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
@@ -26,18 +8,24 @@ from launch_ros.actions import Node
 from launch.actions import OpaqueFunction
 import time
 
+# 定义生成启动描述的函数
 def generate_launch_description():
+    # 获取wpr_simulation2包的launch目录路径
     launch_file_dir = os.path.join(get_package_share_directory('wpr_simulation2'), 'launch')
+    # 获取gazebo_ros包的共享目录路径
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
 
+    # 设置使用仿真时间的配置项，默认为true
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
 
+    # 设置仿真世界文件的路径
     world = os.path.join(
         get_package_share_directory('wpr_simulation2'),
         'worlds',
         'robocup_home.world'
     )
 
+    # 包含gzserver的启动文件，并传递世界文件路径作为参数
     gzserver_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')
@@ -45,12 +33,14 @@ def generate_launch_description():
         launch_arguments={'world': world}.items()
     )
 
+    # 包含gzclient的启动文件
     gzclient_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')
         )
     )
 
+    # 包含spawn_wpb_lidar的启动文件，并设置机器人的初始位置
     spawn_robot_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(launch_file_dir, 'spawn_wpb_lidar.launch.py')
@@ -62,18 +52,21 @@ def generate_launch_description():
     }.items()
     )
 
+    # 包含spawn_objects的启动文件，用于在仿真中生成物体
     spawn_objects = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(launch_file_dir, 'spawn_objects.launch.py')
         )
     )
 
+    # 创建一个LaunchDescription对象
     ld = LaunchDescription()
 
-    # Add the commands to the launch description
+    # 将启动命令添加到启动描述中
     ld.add_action(gzserver_cmd)
     ld.add_action(gzclient_cmd)
     ld.add_action(spawn_robot_cmd)
     ld.add_action(spawn_objects)
     
+    # 返回启动描述
     return ld
