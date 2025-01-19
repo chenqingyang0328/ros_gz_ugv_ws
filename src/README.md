@@ -65,13 +65,13 @@ Or start by creating a workspace and cloning the template repository:
 1. Source the workspace
 
     ```bash
-    . ~/template_ws/install/setup.sh
+    source ~/ros_gz_ugv_ws/install/setup.sh
     ```
 
 1. Launch the simulation
 
     ```bash
-    ros2 launch ros_gz_example_bringup diff_drive.launch.py
+    ros2 launch ros_gz_ugv_bringup diff_drive.launch.py
     ```
 
 For a more detailed guide on using this template see [documentation](https://gazebosim.org/docs/latest/ros_gz_project_template_guide).
