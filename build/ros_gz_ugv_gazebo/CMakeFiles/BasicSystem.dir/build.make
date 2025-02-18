@@ -92,7 +92,7 @@ BasicSystem_EXTERNAL_OBJECTS =
 
 libBasicSystem.so: CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o
 libBasicSystem.so: CMakeFiles/BasicSystem.dir/build.make
-libBasicSystem.so: /opt/ros/jazzy/opt/gz_sim_vendor/lib/libgz-sim8.so.8.7.0
+libBasicSystem.so: /opt/ros/jazzy/opt/gz_sim_vendor/lib/libgz-sim8.so.8.8.0
 libBasicSystem.so: /opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib/libgz-fuel_tools9.so.9.1.0
 libBasicSystem.so: /opt/ros/jazzy/opt/gz_gui_vendor/lib/libgz-gui8.so.8.3.0
 libBasicSystem.so: /opt/ros/jazzy/opt/gz_plugin_vendor/lib/libgz-plugin2-loader.so.2.0.3

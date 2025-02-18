@@ -92,7 +92,7 @@ FullSystem_EXTERNAL_OBJECTS =
 
 libFullSystem.so: CMakeFiles/FullSystem.dir/src/FullSystem.cc.o
 libFullSystem.so: CMakeFiles/FullSystem.dir/build.make
-libFullSystem.so: /opt/ros/jazzy/opt/gz_sim_vendor/lib/libgz-sim8.so.8.7.0
+libFullSystem.so: /opt/ros/jazzy/opt/gz_sim_vendor/lib/libgz-sim8.so.8.8.0
 libFullSystem.so: /opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib/libgz-fuel_tools9.so.9.1.0
 libFullSystem.so: /opt/ros/jazzy/opt/gz_gui_vendor/lib/libgz-gui8.so.8.3.0
 libFullSystem.so: /opt/ros/jazzy/opt/gz_plugin_vendor/lib/libgz-plugin2-loader.so.2.0.3

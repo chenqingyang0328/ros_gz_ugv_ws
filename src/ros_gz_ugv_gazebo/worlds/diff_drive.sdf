@@ -104,6 +104,6 @@
         <robot_base_frame>diff_drive</robot_base_frame>
       </plugin>
     </model>
-
+    
   </world>
 </sdf>

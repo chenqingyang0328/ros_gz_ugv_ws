@@ -1,7 +1,9 @@
 /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_bringup/share/ros_gz_ugv_bringup/launch/diff_drive.launch.py
+/home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_bringup/share/ros_gz_ugv_bringup/launch/robocup_home.launch.py
 /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_bringup/share/ros_gz_ugv_bringup/launch/rrbot_setup.launch.py
-/home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_bringup/share/ros_gz_ugv_bringup/config/ros_gz_ugv_bridge.yaml
+/home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_bringup/share/ros_gz_ugv_bringup/launch/ugv.launch.py
 /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_bringup/share/ros_gz_ugv_bringup/config/rrbot.rviz
+/home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_bringup/share/ros_gz_ugv_bringup/config/ros_gz_ugv_bridge.yaml
 /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_bringup/share/ros_gz_ugv_bringup/config/diff_drive.rviz
 /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_bringup/share/ament_index/resource_index/package_run_dependencies/ros_gz_ugv_bringup
 /home/chen/ros_gz_ugv_ws/install/ros_gz_ugv_bringup/share/ament_index/resource_index/parent_prefix_path/ros_gz_ugv_bringup
